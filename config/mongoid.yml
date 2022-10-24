@@ -1,0 +1,18 @@
+development:
+  clients:
+    default:
+      uri: mongodb+srv://alnafiseducation:Nafis7863@alnafiseducation.mt9ty.mongodb.net/alnafiseducation?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
+production:
+  clients:
+    default:
+      uri: mongodb+srv://alnafiseducation:Nafis7863@alnafiseducation.mt9ty.mongodb.net/alnafiseducation?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
+test:
+  clients:
+    default:
+      uri: mongodb+srv://alnafiseducation:Nafis7863@alnafiseducation.mt9ty.mongodb.net/alnafiseducation?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
