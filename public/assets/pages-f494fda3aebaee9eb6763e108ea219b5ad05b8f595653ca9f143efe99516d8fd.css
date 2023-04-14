@@ -1,0 +1,22 @@
+/* line 5, app/assets/stylesheets/pages.scss */
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* line 11, app/assets/stylesheets/pages.scss */
+.alert.alert-success {
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+}
+
+/* line 16, app/assets/stylesheets/pages.scss */
+.alert.alert-danger {
+  color: #510f18;
+  background-color: #e7d1d3;
+  border-color: #dbbabe;
+}
