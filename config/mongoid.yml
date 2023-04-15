@@ -1,18 +1,18 @@
 development:
   clients:
     default:
-      uri: mongodb+srv://alnafiseducation:Riyas2000@alnafiseducation.mt9ty.mongodb.net/?retryWrites=true&w=majority
+      uri: <%= ENV['MONGO_URL'] %>
       options:
         server_selection_timeout: 5
 production:
   clients:
     default:
-      uri: mongodb+srv://alnafiseducation:Riyas2000@alnafiseducation.mt9ty.mongodb.net/?retryWrites=true&w=majority
+      uri: <%= ENV['MONGO_URL'] %>
       options:
         server_selection_timeout: 5
 test:
   clients:
     default:
-      uri: mongodb+srv://alnafiseducation:Riyas2000@alnafiseducation.mt9ty.mongodb.net/?retryWrites=true&w=majority
+      uri: <%= ENV['MONGO_URL'] %>
       options:
         server_selection_timeout: 5

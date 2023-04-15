@@ -20,7 +20,7 @@ class PagesController < ApplicationController
     if @message.save
       redirect_to '/enquiry', flash: {success: "Submitted Successfully"}
     else
-      redirect_to '/enquiry', flash: {danger: "All fields are required & should be a vaild one"}
+      redirect_to '/enquiry', flash: {danger: "All fields are required & should be a valid one"}
     end
 
   end

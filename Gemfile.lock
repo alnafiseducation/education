@@ -275,6 +275,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   kaminari-mongoid
+  mongo (~> 2.0)
   mongoid
   puma (~> 5.0)
   rails (~> 7.0.4)
